@@ -1,0 +1,47 @@
+.memberCardWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.memberCardImageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.memberCardImage {
+  max-height: 400px;
+  border-radius: 50px;
+}
+
+.memberCardContent {
+}
+
+.memberCardHeading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.memberCardDescription {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.6em;
+}
+
+@media (min-width: 991px) {
+  .memberCardWrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+    margin-bottom: 4em;
+  }
+
+  .memberCardContent {
+    flex-basis: 45%;
+  }
+
+  .memberCardDescription {
+    font-size: 1.3em;
+  }
+}

@@ -1,0 +1,26 @@
+.singleOpinionWrapper {
+  border: 2px solid #CBA859;
+  border-radius: 25px;
+  padding: 2em;
+}
+
+.singleOpinionDescription {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.singleOpinionReviewer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.singleOpinionFbIconWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.singleOpinionFbImage {
+  max-width: 25px;
+}

@@ -1,0 +1,25 @@
+.buttonPrimary {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #cba859;
+  color: #ffffff;
+  transition: background-color 0.3s;
+}
+
+.buttonPrimary:disabled {
+  cursor: not-allowed;
+  background-color: #eaeaea !important;
+}
+
+.buttonPrimary:hover {
+  background-color: #cba859;
+}

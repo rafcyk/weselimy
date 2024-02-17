@@ -1,0 +1,21 @@
+.sliderWrapper {
+  overflow: hidden;
+}
+
+.sliderWrapper .splide__arrow {
+  background: #000;
+}
+
+.sliderWrapper .splide .splide__arrows .splide__arrow svg {
+  fill: #FFF;
+}
+
+.sliderItemWrapper {
+  margin: 0 3.5em;
+}
+
+@media (min-width: 991px) {
+  .sliderListItem:nth-child(even) > div > div {
+    flex-direction: row-reverse;
+  }
+}

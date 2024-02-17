@@ -1,0 +1,52 @@
+.aboutUsTopWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.aboutUsText {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+.teamMembersWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.navigationWrapper {
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+}
+
+.navigationIcon {
+  display: block;
+}
+
+.navigationIcon {
+  display: none;
+  font-size: 3rem;
+  color: #ffffff;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 991px) {
+  .navigationWrapper {
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+  }
+
+  .navigationIcon {
+    display: block;
+  }
+}

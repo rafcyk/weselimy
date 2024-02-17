@@ -1,0 +1,46 @@
+.offerCardWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.offerCardHeading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.offerCardContent {}
+
+.offerCardDescription {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.offerCardImageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offerCardImage {
+  max-height: 400px;
+  border-radius: 50px;
+}
+
+@media (min-width: 991px) {
+  .offerCardContent {
+    flex-basis: 45%;
+  }
+
+.offerCardDescription {
+  font-size: 1.3rem;
+}
+
+
+  .offerCardWrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+    margin-bottom: 4em;
+  }
+}
